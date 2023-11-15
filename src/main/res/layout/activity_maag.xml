@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maag">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MAAG"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSakit maag atau istilah medisnya adalah dispepsia merupakan kumpulan gejala yang
+menyebabkan rasa tidak nyaman pada daerah perut bagian atas/ulu hati. Perlu diketahui
+bahwa rasa tidak nyaman tersebut dapat berupa salah satu atau beberapa gejala berikut yaitu :
+nyeri pada ulu hati, rasa terbakar di ulu hati, rasa penuh setelah makan, cepat kenyang, rasa
+kembung pada saluran cerna atas, mual, muntah, dan sendawa."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Yuk Kenali Gejalanya!"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Nyeri pada ulu hati
+            \n2. Rasa terbakar di ulu hati
+            \n3. Rasa penuh setelah makan
+            \n4. Cepat kenyang
+            \n5. Rasa kembung pada saluran atas
+            \n6. Mual
+            \n7. Muntah
+            \n8. Sendawa"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Penyebab"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Banyak faktor yang memicu timbulnya keluhan sakit maag, diantaranya :
+1. Sekresi asam lambung
+2. Kebiasaan makan (gangguan motilitas), perasaan begah setelah makan yang dapat
+berupa distensi abdomen, kembung, dan rasa penuh.
+3. Infeksi bakteri Helicobacter pylori
+4. Kebiasaan mengkonsumsi makanan beresiko seperti makanan pedas, asam, bergaram
+tinggi dan minuman seperti kopi atau alkohol.
+5. Faktor psikologis, depresi dan ansietas berperan pada terjadinya dispepsia.
+6. Riwayat infeksi atau peradangan pada dinding saluran pencernaan, terutama lambung
+dan usus sebelumnya.
+7. Genetik."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Cara Mencegah Maag"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Menghindari obat penyebab ulcer (aspirin dan NSAIDs lain, bisphosphonat oral, KCl,pengobatan imunosupresan)
+2. Menghindari stress
+3. Stop merokok
+4. Menghindari makanan yang beresiko, minuman soda, berkafein, dan alkohol
+5. Makan secukupnya jangan berlebihan/kekenyangan
+6. Istrahat yang cukup"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Obat yang dapat digunakan"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="1. Antasida"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/antasida" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="2. Ranitidin"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ranitidin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="3. Omeprazol"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/omeprazol" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

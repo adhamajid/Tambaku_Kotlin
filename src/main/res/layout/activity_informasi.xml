@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Informasi">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/main_toolbar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="1. Apa itu Obat?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tObat adalah suatu zat yang digunakan untuk menyembuhkan suatu penyakit. Obat
+dapat berupa obat sintetik/kimia ataupun obat herbal"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="2. Apa itu Swamedikasi?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSwamedikasi adalah salah satu upaya yang sering dilakukan oleh seseorang dalam
+mengobati gejala sakit atau penyakit yang sedang dideritanya tanpa terlebih dahulu
+melakukan konsultasi ke dokter (Permenkes No. 919 Menkes/Per/X/1993)
+1
+.
+Penyakit yang dapat diatasi dengan swamedikasi seperti demam, nyeri, pusing,
+batuk, influenza, maag, diare, dan lain-lain. Swamedikasi ini sebagai bentuk upaya
+masyarakat dalam menjaga kesehatan dirinya sendiri ketika menderita suatu
+penyakit (ringan) dan tetap konsultasikan dengan apoteker supaya tidak terjadi
+kesalahan dalam penggunaan obat (medication error).
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="3. Langkah-langkah Swamedikasi?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\t\tKenali gejala yang dirasakan
+misalnya bila batuk maka pastikan apakah batuk tersebut batuk berdahak
+atau batuk kering, karena obat yang dibutuhkan untuk kedua jenis batuk
+tersebut berbeda. baca informasi “Indikasi” pada brosur atau kemasan obat."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\t\tKenali kondisi tubuh.
+        Kenali kondisi tubuh, misalnya kondisi hamil dan menyusui, adanya penyakit
+        kronis seperti hipertensi, gangguan jantung, gangguan fungsi hati, gangguan
+        fungsi ginjal, atau alergi obat tertentu. Kondisi ini menentukan boleh tidaknya
+        suatu obat digunakan pada pasien tertentu (baca informasi
+        “Perhatian/”Peringatan (kondisi obat tidak dapat dipakai atau diwaspadai)”
+        dan “Kontraindikasi (alasan obat tidak bisa digunakan, misal kondisi sedang
+        hamil, alergi, atau yang lainnya)” pada brosur atau kemasan obat)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c.\t\tMinta rekomendasi profesional kesehatan, jika berkaitan dengan obat ke
+apoteker, jika berkaitan dengan penyakit ke dokter."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d.\t\tMempertimbangkan riwayat pengobatan pasien, contoh pengobatan
+hipertensi atau kolesterol, diabetes."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="e.\t\tPenyakit yang menyertai (penyakit yang sudah dimiliki) dan penyakit
+kambuhan (asam urat, asma)."
+                android:textSize="15sp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="f.\t\tMemonitor khasiat dari pengobatan dan kemungkinan terjadinya efek
+samping obat, seperti CTM yang diminum ketika mengalami batuk pilek dapat
+menyebabkan rasa kantuk, maka jangan bepergian ketika mengkonsumsi
+obat tersebut."
+            android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="4. Berapa lama bisa swamedikasi?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSebaiknya jika dalam kurun waktu 3 - 7 hari, keluhan yang dirasakan tidak
+berkurang, segeralah periksa ke dokter supaya terhindar dari hal-hal yang tidak diinginkan. (Penyakit ringan hingga sembuh, sesuai dengan aturan penggunaan
+obat)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="5. Dampak Positif dan negatif swamedikasi bagi masyarakat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/swamed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="6. Apa itu swaprevensi"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSwaprevensi adalah suatu upaya yang dilakukan oleh masyarakat untuk mencegah
+terjadinya suatu penyakit (tanpa obat dan dengan obat). Sebagaimana kata
+pepatah.”Mencegah lebih baik daripada mengobati”. Swaprevensi ini dapat berupa
+olahraga ataupun mengkonsumsi rempah-rempah yang bisa meningkatkan imun/
+mempertahankan stamina tubuh kita, sehingga tubuh dapat bekerja dengan
+maksimal."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="7. Dampak Positif dan negatif swaprevensi bagi masyarakat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/swap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="1. Penggolongan Obat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tAdanya penggolongan obat dimaksudkan untuk peningkatan keamanan, ketepatan
+penggunaan serta pengamanan distribusinya. Penggolongan obat menurut
+Permenkes No. 9 Tahun 2021"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\ta. Obat Bebas
+            Obat bebas adalah obat yang dijual bebas di pasaran dan dapat dibeli tanpa
+            resep dokter. Tanda khusus pada kemasan dan etiket obat bebas adalah
+            lingkaran hijau dengan garis tepi berwarna hitam. Contoh : Parasetamol"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tb. Obat Bebas Terbatas
+            Obat bebas terbatas adalah obat yang sebenarnya termasuk obat keras
+            tetapi masih dapat dijual atau dibeli bebas tanpa resep dokter, dan disertai
+            dengan tanda peringatan. Tanda khusus pada kemasan dan etiket obat
+            bebas terbatas adalah lingkaran biru dengan garis tepi berwarna hitam.
+            Contoh : CTM"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tc. Obat Keras dan Psikotropika
+Obat keras adalah obat yang hanya dapat dibeli di apotek dengan resep
+dokter. Tanda khusus pada kemasan dan etiket adalah huruf K dalam
+lingkaran merah dengan garis tepi berwarna hitam. Contoh : Asam
+Mefenamat
+Obat psikotropika adalah obat keras baik alamiah maupun sintetis bukan
+narkotik, yang berkhasiat psikoaktif melalui pengaruh selektif pada susunan
+saraf pusat yang menyebabkan perubahan khas pada aktivitas mental dan
+perilaku. Contoh : Diazepam, Phenobarbital"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\td. Obat Narkotika
+Obat narkotika adalah obat yang berasal dari tanaman atau bukan tanaman
+baik sintetis maupun semi sintetis yang dapat menyebabkan penurunan atau
+perubahan kesadaran, hilangnya rasa, mengurangi sampai menghilangkan
+rasa nyeri dan menimbulkan ketergantungan. Contoh : Morfin, Petidin"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="2. Informasi kemasan, etiket, dan brosur"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSebelum menggunakan obat, perhatikan dulu kemasannya ya. karena ada beberapa
+            informasi penting yang harus kita ketahui, seperti:"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\ta. nama obat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tb. komposisi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tc. indikasi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\td. informasi cara kerja obat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\te. aturan pakai"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tf. peringatan (khusus untuk obt terbatas)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tg. perhatian nama produsen"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\th. nama produsen"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\ti. nomer batch"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tj. nomor regestrasi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tk. tanggal kadaluarsa(sebagai tanda izin edar)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="3. Tanda Peringatan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Berikut contoh tanda peringatan yang terdapat dalam obat"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tanda"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="4. Efek Samping"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tApa itu efek samping? Efek samping adalah suatu dampak negatif yang akan muncul
+jika mengonsumsi obat tertentu. Contohnya gatal- gatal, mual."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="5. Kadaluarsa"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tTanggal kadaluarsa menunjukkan bahwa sampai dengan tanggal yang dimaksud,
+mutu dan keamanan obat masih terjamin. Namun setelah itu keamanan obat sudah
+tidak terjamin dan dapat menimbulkan hal- hal yang tidak diinginkan jika tetap
+dikonsumsi. Ciri- ciri obat yang sudah berkurang mutu nya seperti :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\ta. Tablet"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Terjadinya perubahan warna, bau atau rasa"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Kerusakan berupa noda, berbintik-bintik, lubang, sumbing, pecah,
+retak dan atau terdapat benda asing, jadi bubuk dan lembab."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tiii. Wadah rusak"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tb. Tablet salut"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Pecah-pecah, terjadi perubahan warna"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Basah dan lengket satu dengan lainnya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tiii. wadah rusak"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tc. Kapsul"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Perubahan warna isi kapsul"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Kapsul terbuka, kosong, rusak atau melekat satu sama lain"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\td. Cairan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Menjadi keruh atau timbul endapan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Konsistensi berubah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tiii. Warna atau rasa berubah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tiv. Botol plastik rusak atau bocor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\te. Salep"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Warna berubah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Pot atau tube rusak atau bocor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tiii. Bau berubah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="6. Dosis"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tDosis merupakan aturan pemakaian yang menunjukkan jumlah gram atau volume
+            dan frekuensi pemberian obat untuk dicatat sesuai dengan umur dan berat badan
+            pasien."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\t\tGunakan obat tepat waktu sesuai aturan pemakaian.Contoh :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Tiga kali sehari berarti obat diminum setiap 8 jam sekali\n
+\t\t\tii. Obat diminum sebelum atau sesudah makan\n
+\t\t\tiii. Jika menggunakan obat-obat bebas, ikuti petunjuk pada kemasan
+atau brosur/leaflet"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\t\tBila terlupa minum obat :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\ti. Minumlah dosis yang terlupa segera setelah ingat, tetapi jika hampir
+mendekati dosis berikutnya, maka abaikan dosis yang terlupa dan
+kembali ke jadwal selanjutnya sesuai aturan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\t\tii. Jangan menggunakan dua dosis sekaligus atau dalam waktu yang
+berdekatan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="7. Hal yang perlu diperhatikan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\tKemasan/ wadah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tKemasan harus tersegel baik, tidak rusak, tidak berlubang, kadarluarsa jelas
+terbaca"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\tPenandaan pada wadah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\ti. Baca manfaat dari obat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tii. Baca aturan pakai, seperti sebelum atau sesudah makan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tiii. Untuk menghindari overdosis, jika lupa minum obat jangan
+            mengonsumsi dengan cara 2 kali dosis dalam satu konsumsi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tiv. Baca kontraindikasinya, misal tidak dibolehkan untuk ibu hami,
+            menyusui, penderita ginjal, dan lain-lain."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c.\tBila ragu tanyakan pada apoteker"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d.\tBila sakit berlanjut hubungi dokter"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="8. Cara pemilihan Obat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\tDalam memilih obat perhatikan hal-hal berikut ini!"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\tGejala atau keluhan penyakit"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\tKondisi khusus, semisal hamil, menyusui, bayi, lanjut usia, diabetes melitus,
+            dan lain-lain"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c.\tRiwayat alergi atau reaksi yang tidak diinginkan terhadap obat tertentu."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d.\tBaca informasi penting yang ada di kemasan obat."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="e.\tPilih obat yang sesuai dengan gejala penyakit dan tidak ada interaksi obat
+            dengan obat yang sedang diminum, dan konsultasikan kepada apoteker"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="9. Cara penggunaan obat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\tPenggunaan obat tidak untuk pemakaian secara terus menerus."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\tGunakan obat sesuai dengan anjuran yang tertera pada etiket atau brosur."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c.\tBila obat yang digunakan menimbulkan hal-hal yang tidak diinginkan,"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d.\thentikan penggunaan dan tanyakan kepada Apoteker dan dokter."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="e.\tHindarkan menggunakan obat orang lain walaupun gejala penyakit sama."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="f.\tUntuk mendapatkan informasi penggunaan obat yang lebih lengkap,
+            tanyakan kepada Apoteker."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="10. Cara penyampaian obat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\tGimana sih cara menyimpan obat yang baik?"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a.\tSimpan obat dalam kemasan asli dan dalam wadah tertutup rapat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\tSimpan obat pada suhu kamar dan terhindar dari sinar matahari langsung,
+            tidak lembab, atau seperti petunjuk yang berada di kemasan obat."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c.\tJangan menyimpan obat bentuk cair dalam lemari pendingin agar tidak beku,
+            kecuali jika tertulis pada kemasan obat."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d.\tJangan menyimpan obat yang sudah kadaluarsa atau rusak."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="e.\tJauhkan dari jangkauan anak-anak."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="11. Cara pembuangan obat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Ada beberapa hal yang harus diperhatikan dalam pembuangan obat, supaya tidak
+            terjadi penyalahgunaan"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Tablet"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="i. Segala informasi tentang obat dilepas/dihilangkan dari bungkusnya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="ii. Hancurkan obat sampai rusak"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="iii. Masukkan kedalam plastik, lalu dibuang"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b.\tLarutan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="i. Label obat dilepas dari botolnya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="ii. Encerkan obat dengan air/ dicampur dengan tanah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="iii. Tuang larutan pada tanah"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

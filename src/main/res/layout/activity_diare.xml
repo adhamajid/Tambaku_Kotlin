@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diare">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Diare"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tDiare adalah kondisi dimana seseorang buang air besar dengan tinja lembek atau cair lebih dari tiga
+kali sehari. Diare yang berat dapat menyebabkan dehidrasi. Hal yang harus diperhatikan saat
+seseorang mengalami diare adalah dehidrasi. Dehidrasi adalah keadaan dimana tubuh kekurangan
+cairan dan dapat berakibat fatal terutama pada bayi atau anak-anak. Diare pada bayi atau anak
+sebaiknya segera dibawa ke dokter."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Klasifikasi Diare Berdasarkan Durasi"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="- Diare Akut: diare kurang dari 14 hari
+            \n- Diare Kronis/Persisten: diare lebih dari 14 hari
+            \n- Disentri: diare disertai darah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Derajat Dehidrasi"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Tidak Dehidrasi:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Kehilangan cairan kurang dari 5% Berat Badan penderita diare.
+                \n Tanda-tandanya:
+            \n- Balita tetap aktif,
+            \n- Memiliki keinginan untuk minum seperti biasa
+            \n- Mata tidak cekung
+            \n- Turgor kembali segera"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Dehidrasi Ringan"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Kehilangan cairan 5 -10% Berat Badan penderita diare.
+                \n Tanda-tandanya:
+            \n- Gelisah dan Rewel,
+            \n- Ingin minum terus/rasa haus meningkat
+            \n- Mata cekung
+            \n- Turgor kembali lambat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Dehidrasi Berat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Kehilangan cairan lebih dari 10% Berat Badan penderita diare.
+                \n Tanda-tandanya:
+            \n- Lesu/lunglai, tidak sadar,
+            \n- Malas minum
+            \n- Mata cekung
+            \n- Turgor kembali sangat lambat > 2 detik"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Yuk Kenali Gejalanya!"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Sering buang air besar
+            \n2. Kotoran encer/cair
+            \n3. Pada beberapa kasus disertai demam, muntah dan kejang perut.
+            \n4. Dehidrasi."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Cara mencegah diare"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Cuci tangan setiap buang air besar, sebelum dan setelah makan, setelah
+                \n\t  menyentuh daging
+            \n2. Menjaga kebersihan makanan dari lalat kecoa atau tikus.
+            \n3. Menjaga kebersihan lingkungan.
+            \n4. Gunakan air bersih untuk memasak.
+            \n5. Minum air matang."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Terapi Suportif"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Minum banyak cairan
+                \n2. Minum cairan rehidrasi oral- oralit/larutan gula garam
+                \n3. Menjaga kebersihan lingkungan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Prinsip Pengobatan Diare"
+                android:textSize="18sp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="1. dehidrasi
+            \n2. Mengobati dehidrasi dengan oralit
+            \n3. Mempercepat kesembuhan dengan obat zinc
+            \n4. Memberi makanan
+            \n5. Mengobati masalah lain"
+            android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Obat yang dapat digunakan"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. oralit"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Kegunaan: Mengganti cairan tubuh yang keluar bersama tinja.
+Oralit adalah campuran gula, garam natrium dan kalium.
+Aturan pakai:
+Kita dapat membuat larutan oralit sendiri dengan mencampur:
+Gula 40 g (1 sendok makan) + garam 3,5 g (1 sendok teh) dilarutkan dalam 1 liter (5 gelas) air mendidih yang telah didinginkan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="2. zinc"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zinc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="3. Kaolin Pektin"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kaoklin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="4. Attapulgit"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/attapulgit" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

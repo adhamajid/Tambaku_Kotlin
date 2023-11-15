@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".AboutUs">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/main_toolbar"/>
+
+<!--        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="226dp" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VideoPlay"
+            android:text="Play"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TENTANG APLIKASI TAMBAKU"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi ini merupakan aplikasi mobile untuk mengedukasi masyarakat terkait swamedikasi dan swaprevensi. Pada aplikasi ini terdiri dari beberapa fitur yaitu fitur pengenalan umum tentang obat, penggunaan obat menurut penyakitnya, dan penjelasan pendukung untuk pengobatan serta pencegahan penyakit secara mandiri. Adanya aplikasi ini diharapkan dapat memudahkan masyarakat dalam mencegah dan mengobati penyakit secara mandiri."
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#636363"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:layout_margin="16dp"
+                android:onClick="ClickLogo"
+                android:src="@drawable/me" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:textStyle="bold"
+                android:text="atau bisa kontak saya melalui: \n adhasyahm@gmail.com"
+                />
+
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

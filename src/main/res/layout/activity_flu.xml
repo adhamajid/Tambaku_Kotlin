@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flu"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tFlu merupakan penyakit yang umum terjadi dan dapat sembuh dengan sendirinya. Gejala flu
+dapat dikurangi dengan terapi non obat seperti minum air putih yang banyak atau istirahat dengan
+cukup. Namun, apabila setelah dilakukan terapi non obat, gejala flu tersebut tidak kunjung sembuh
+dan semakin berat, maka disarankan untuk menggunakan terapi obat. Obat flu pada umumnya
+mengandung zat aktif golongan antipiretik/analgesik, antitusif, ekspektoran, dekongestan, dan
+antihistamin. Sebagian produk ada yang mengandung semua zat aktif tersebut atau hanya kombinasi
+sebagian zat aktif. Sebaiknya jika hendak mengkonsumsi obat flu, perhatikan terlebih dahulu
+komposisi zat aktif yang terkandung didalamnya dan pastikan bahwa zat aktif yang terkandung sesuai
+dengan gejala yang dirasakan. Perlu diingat bahwa obat flu hanya meredakan gejala yang timbul dan
+bukan mengobati, sehingga agar tidak mudah terkena flu disarankan untuk menjaga daya tahan tubuh
+dengan mengatur pola makan sehat, berolahraga dan istirahat yang cukup."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginTop="13dp"
+            android:text="Yuk Kenali Gejalanya !"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="1. Demam
+            \n2. Sakit Kepala, nyeri otot
+            \n3. Bersin, hidung berair, mata berair, batuk
+            \n4. Sakit tenggorokan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginTop="13dp"
+            android:text="Terapi Suportif"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="1. Istirahat yang cukup
+            \n2. Meningkatkan daya tahan tubuh dengan menambah asupan gizi
+            \n\t  melalui makanan berprotein dan kalori tinggi
+            \n3. banyak minum air
+            \n4. memakan buah segar yang mengandung vitamin"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginTop="13dp"
+            android:text="Obat Flu"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="1. Antihistamin
+            \n\t contoh: CTM (Klorfeniramin maleat), Difenhidramin HCl, Triprolidine"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCTM (Klorfeniramin maleat)"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ctm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tDifenhidramin HCl"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bfhcl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="2. Dekongestan
+            \n\t  Contoh: Phenylpropanolamine (PPA), Pseudoephedrine HCl,
+            \n\t  Phenylephrine HCl."
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tPhenylpropanolamine (PPA)"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ppa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tPseudoephedrine HCl"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pse" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tPhenylephrine HCl"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="3. Analgesik Antipiretik
+            \n\t  Contoh: Parasetamol, Asetosal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tParasetamol"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paracetamol" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tAsetosal"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/asetosal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2mm"
+            android:text="4. Ekspektoran (Batuk Berdahak)
+            \n\t  Lihat bab batuk"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginLeft="2mm"
+            android:text="5. Antitusif/ Penekan Batuk (Batuk Kering)
+            \n\t  Lihat bab batuk"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

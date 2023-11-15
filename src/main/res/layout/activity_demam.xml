@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".demam">
+
+    <androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demam"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tDemam bukanlah suatu penyakit, melainkan gejala dari suatu penyakit. Perlu diketahui bahwa
+suhu tubuh normal adalah 37oC. Suhu tubuh bisa dikatakan demam jika pada pagi hari lebih
+dari 37,2oC dan pada sore hari lebih dari 37,7oC. Kenaikan suhu 38oC pada anak di bawah
+lima tahun dapat memicu kejang dengan gejala antara lain: tangan dan kaki kejang, mata
+melihat ke atas, gigi dan mulut tertutup rapat, serta penurunan kesadaran. Jika hal tersebut
+terjadi, maka segeralah ke dokter."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="Yuk Kenali Gejalanya !"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="- Kepala, leher, dan tubuh terasa panas, sedangkan tangan dan kaki dingin
+            \n- Mungkin merasa kedinginan dan menggigil bila suhu meningkat dengan cepat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="Terapi Suportif"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="- Istirahat yang cukup
+            \n- Minum air yang banyak
+            \n- Usahakan makan seperti biasa
+            \n- Periksa suhu tubuh
+            \n- Kompres dengan air hangat
+            \n- Hubungi dokter bila suhu sangat tinggi (diatas 38oC), terutama pada anak-anak"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="Obati Demam Dengan Obat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="\t\tParasetamol"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paracetamoldemam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="\t\tAsetosal (Aspirin)"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aspirin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="\t\tIbuprofen"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ibuprofen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="INFO PENTING !"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1.Ibuprofen memiliki efek terapi anti radang lebih tinggi dibandingkan dengan efek anti demamnya.
+                \n2.Asetosal dan parasetamol efek terapi anti demamnya lebih tinggi dibandingkan efek anti nyeri dan anti radangnya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="Cara menggunakan termometer dengan benar"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="-	Kocok termometer sebelum mengukur sampai air raksa turun di bawah tanda 35oC
+                \n-Termometer ditaruh di bawah lidah selama 1 menit atau di bawah lipatan lengan (ketiak) selama 4 menit. Suhu normal di bawah lipatan lengan (ketiak) adalah 36,5oC. Untuk menyamai suhu di bawah lipatan tangan (ketiak) dengan suhu mulut, maka tambahkan 0,5oC pada suhu yang terbaca
+                \n-Cuci termometer sebelum dan sesudah dipakai"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

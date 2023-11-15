@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".batuk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Kenali Jenis Batuk"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="1. Batuk Berdahak : Batuk yang disertai dengan keluarnya dahak dari \n\t  batang tenggorokan"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="2. Batuk Kering : Batuk yang tidak disertai dengan keluarnya dahak"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Penting !"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="Kenali jenis batuk anda karena penggunaan obat akan berbeda sesuai jenisnya"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Yuk Kenali Gejalanya !"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="1. Tenggorokan terasa sakit atau gatal"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="2. Pengeluaran udara dari saluran pernapasan secara kuat, yang mungkin\n\t  disertai dengan pengeluaran dahak"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Obati Batuk Tanpa Obat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="Anda tidak terbiasa mengonsumsi obat? Mari lakukan hal dibawah ini !"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="- Minum banyak air \t\t\t - Stop Kebiasaan Merokok \t\t\t - Konsumsi Madu \n - Hindari Minuman yang Dingin \t\t\t - Hindari makanan berminyak"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Obati Batuk Dengan Obat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="Konsumsilah obat sesuai dengan jenis batuk anda!\n\tA. Obat batuk berdahak (Ekspektoran)"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="\t\tGliseril Guaiakolat"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gliseril" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBromheksin"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bromheksin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left"
+            android:text="B. Obat penekan batuk (Antitusif)"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tDekstrometorfan HBr (DPM HBr)"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hbr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tDifenhidramin HCL"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bfhcl" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

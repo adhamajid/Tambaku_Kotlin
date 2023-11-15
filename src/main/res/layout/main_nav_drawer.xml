@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        android:onClick="ClickLogo"
+        android:src="@drawable/logo_3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#636363"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickHome">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickInformasi">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Informasi Umum Tentang Obat"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/informasi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickMacam">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Macam -Macam Obat"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/macam_obat"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickAboutUs">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="About Us"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/about"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickLogout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/logout"/>
+    </LinearLayout>
+
+</LinearLayout>

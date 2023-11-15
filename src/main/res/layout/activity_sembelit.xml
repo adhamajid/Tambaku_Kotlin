@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sembelit">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sembelit"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSembelit adalah kesulitan dan atau jarang buang air besar, dikatakan kurang dari 3 kali dalam
+seminggu. Sembelit paling sering terjadi ketika tinja bergerak terlalu lambat melalui saluran
+pencernaan atau tidak dapat dihilangkan secara efektif dari rektum, yang dapat menyebabkan
+tinja menjadi keras dan kering. Sembelit dapat dianggap kronis jika gejala-gejalanya dialami
+selama dua atau lebih dalam tiga bulan terakhir."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Yuk Kenali Gejalanya!"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1. Tinja keras dan kering
+            \n2. Kesulitan untuk buang air besar
+            \n3. Perut terasa tidak nyaman
+            \n4. Kembung"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Penyebab"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="1. Penyumbatan di usus besar atau rektum"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Penyumbatan di usus besar atau rektum dapat memperlambat atau menghentikan gerakan
+tinja. Penyebabnya meliputi :
+a. Penyumbatan di usus
+b. Kanker usus besar
+c. Penyempitan usus besar
+d. Kanker perut lain yang menekan usus besar
+e. Kanker
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="2. Masalah dengan saraf di sekitar usus besar dan rektum"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Masalah neurologis dapat mempengaruhi saraf yang menyebabkan otot di usus besar dan
+rektum untuk berkontraksi dan memindahkan tinja melalui usus. Penyebabnya meliputi :
+a. Kerusakan pada saraf yang mengontrol fungsi tubuh
+b. Multiple sclerosis
+c. Penyakit parkinson
+d. Cedera sumsum tulang belakang
+e. Stroke"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="3. Otot-otot yang terlibat dalam pembuangan tinja mengalami kesulitan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Masalah dengan otot panggul yang terlibat pembuangan dapat menyebabkan sembelit
+kronis. Masalah-masalah ini dapat mencakup :
+a. Sulit untuk mengendurkan otot panggul untuk memungkinkan usus bergerak (anismus)
+b. Otot panggul tidak berkontraksi dengan benar
+c. Otot panggul melemah"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="4. Kondisi yang mempengaruhi hormon dalam tubuh"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Hormon membantu menyeimbangkan cairan dalam tubuh. Penyakit dan kondisi yang
+mengganggu keseimbangan hormon dapat menyebabkan sembelit. Termasuk :
+a. Diabetes
+b. Hyperparathyroidism
+c. Kehamilan
+d. Hipotiroidisme"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="5. Faktor risiko"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Faktor-faktor yang dapat meningkatkan risiko sembelit kronis, meliputi :
+a. Usia. Semakin tua usia, semakin besar risikonya.
+b. Wanita
+c. Dehidrasi
+d. Makan makanan yang rendah serat
+e. Kurang berolahraga
+f. Minum obat-obatan tertentu seperti obat penenang, obat golongan opioid/narkotika,
+obat-obat antidepresan, obat-obat penurun darah tinggi
+g. Depresi dan gangguan makan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="6. Komplikasi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Komplikasi sembelit kronis meliputi :
+        \na. Pembengkakan di anus (wasir)
+        \nb. Tinja yang sulit dikeluarkan karena terlalu keras
+        \nc. Usus yang menonjol dari anus"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Cara Mencegah Sembelit"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="1.Memakan makanan tinggi serat, misalnya kacang-kacangan, sayuran, buah-buahan, sereal gandum utuh
+        \n2.Mengurangi makanan yang rendah serat seperti, makanan olahan
+        \n3.Minum banyak
+        \n4.Olahraga teratur
+        \n5.Mengurangi stress
+        \n6.Tidak menahan ketika ingin buang air besar"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Obat Yang Dapat Digunakan"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="Sembelit ditandai oleh rasa tidak nyaman pada perut, penurunan nafsu makan, dan malaise akibat frekuensi buang air besar yang tidak cukup, hal tersebut menyebabkan tinja keras dan kering. Adapun contoh obat yang dapat digunakan antara lain :
+            \n1. Bisakodil (Contoh : Dulcolax)"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bisakodil" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="2. Natrium Dokusat (Contoh : Laxatab)"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/laxatab" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="3. Lactulose (Contoh : Opilax)"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/opilax" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left"
+                android:text="4. Parafin cair (Contoh : Garulax Forte)"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parafin" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
