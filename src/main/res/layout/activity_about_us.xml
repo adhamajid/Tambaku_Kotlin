@@ -24,17 +24,159 @@
             <include
                 layout="@layout/main_toolbar"/>
 
-<!--        <VideoView
-            android:id="@+id/videoView"
-            android:layout_width="match_parent"
-            android:layout_height="226dp" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/play"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="VideoPlay"
-            android:text="Play"/>-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bekabott"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.531"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/min" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="PENCIPTA"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#003399"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="adha1900018252@webmail.uad.ac.id"
+                    android:textColor="#040404"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView"
+                    app:layout_constraintStart_toStartOf="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/uad" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Kampus"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/infor" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Jurusan"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_droid" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Platform"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,10 +189,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Aplikasi ini merupakan aplikasi mobile untuk mengedukasi masyarakat terkait swamedikasi dan swaprevensi. Pada aplikasi ini terdiri dari beberapa fitur yaitu fitur pengenalan umum tentang obat, penggunaan obat menurut penyakitnya, dan penjelasan pendukung untuk pengobatan serta pencegahan penyakit secara mandiri. Adanya aplikasi ini diharapkan dapat memudahkan masyarakat dalam mencegah dan mengobati penyakit secara mandiri."
+                android:justificationMode="inter_word"
+                android:text="\t\tAplikasi ini merupakan aplikasi mobile untuk mengedukasi masyarakat terkait swamedikasi dan swaprevensi. Pada aplikasi ini terdiri dari beberapa fitur yaitu fitur pengenalan umum tentang obat, penggunaan obat menurut penyakitnya, dan penjelasan pendukung untuk pengobatan serta pencegahan penyakit secara mandiri. Adanya aplikasi ini diharapkan dapat memudahkan masyarakat dalam mencegah dan mengobati penyakit secara mandiri."
                 android:textSize="15sp"
                 android:textStyle="bold"
-                android:gravity="center"/>
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:gravity="left"/>
 
             <View
                 android:layout_width="match_parent"
@@ -59,24 +204,50 @@
                 android:layout_marginBottom="16dp"
                 android:background="#636363"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pembimbing Materi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="120dp"
                 android:layout_margin="16dp"
                 android:onClick="ClickLogo"
-                android:src="@drawable/me" />
+                android:layout_gravity="center"
+                android:src="@drawable/endang" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber Literasi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_margin="16dp"
+                android:onClick="ClickLogo"
+                android:layout_gravity="center"
+                android:src="@drawable/literasi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8sp"
                 android:textStyle="bold"
-                android:text="atau bisa kontak saya melalui: \n adhasyahm@gmail.com"
+                android:gravity="center"
+                android:text="kode ISBN dapat di check melalui: \n https://isbn.perpusnas.go.id"
                 />
 
         </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
     <RelativeLayout
